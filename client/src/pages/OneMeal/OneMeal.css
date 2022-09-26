@@ -1,0 +1,67 @@
+.ourname {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.alal {
+    margin-top: 25px;
+}
+.btn-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: -0.25px;
+    color: #fff;
+    margin: 0;
+    background-color: var(--dish-type-color);
+    padding: 0.25rem 2rem;
+    border-radius: 100px;
+}
+.favor {
+    background-color: wheat
+}
+.baton {
+    width: 30%;
+}
+.extra {
+    margin-top: 20px;
+}
+.mainImg {
+    margin-left: 10px;
+}
+.ingImg {
+    width: 100px;
+    height: 100px;
+}
+.eqname {
+    text-align: center
+}
+.card {
+    margin-bottom: 20px;
+}
+.align-justify {
+    text-align: justify;
+}
+.taste {
+    text-decoration: none;
+}
+.svg-big{
+	width: 25px;
+	height: 25px
+}
+.this {
+    height: 40%;
+    width: 70%;
+}
+td {
+    margin: 10px;
+}
+.strange {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}

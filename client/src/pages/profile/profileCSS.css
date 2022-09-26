@@ -1,0 +1,101 @@
+:root {
+	--primary-color: #185ee0;
+	--secondary-color: #e6eef9;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+}
+
+.user {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon_name {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 50px;
+    margin-right: 16px;
+    width: 50px;
+    border-radius: 50%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 16px;
+    background-color: #e5efd9;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.social {
+    margin-bottom: 10px;
+}
+
+.vk, .odnoklassniki, .telegram {
+    border: 1px solid #9ca2a2;
+    margin-top: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    flex-grow: 2;
+    height: 48px;
+}
+
+input.social-input {
+    flex-grow: 2;
+    padding: 0 16px;
+    border: 0;
+    outline: 0;
+    background-color: inherit;
+}
+
+.tabs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    cursor: pointer;
+}
+
+h2.non-active {
+    padding: 10px;
+}
+
+h2.active {
+    transition: 0.3s ease-in;
+    padding: 10px;
+    background-color: #BB5274;
+    color: white;
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
